@@ -11,7 +11,8 @@ class SpringBootAwsExampleApplicationTests {
 
     @Test
     void contextLoads() {
-        loggeer.info("Test case executing");
+        loggeer.info("Test case executing..........!");
+        loggeer.info("Test case executing second log statement..........!");
         assert (true);
     }
 
