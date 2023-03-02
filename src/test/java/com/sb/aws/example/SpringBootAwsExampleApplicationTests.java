@@ -10,7 +10,7 @@ class SpringBootAwsExampleApplicationTests {
     public static final Logger loggeer = LoggerFactory.getLogger(SpringBootAwsExampleApplicationTests.class);
 
     @Test
-    void contextLoads() {
+     contextLoads() {
         loggeer.info("Test case executing..........!");
         loggeer.info("Test case executing second log statement..........!");
         assert (true);
